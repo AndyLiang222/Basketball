@@ -203,10 +203,10 @@ function PlayerProfile(props){                                                  
     //     ],
     // };
     const {id} = useParams();
-    let picture = undefined;
+    
     let playerData = useFetch("https://basketballmarkville.herokuapp.com/player/getplayer/"+id).data;
     if(playerData){
-        const { name,height, weight,number,team,seasons,stats, awards,nicknames,positions,grade} = playerData;
+        const { name,height, weight,number,team,seasons,stats, awards,nicknames,positions,grade,picture} = playerData;
         const teamData = {name:"T Squares"};
         
         let nicknamesFortmated = "(";
