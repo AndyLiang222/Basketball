@@ -62,7 +62,7 @@ function Nav() {
     return (
         <Container>
             <Top>
-                <Logo href='/'></Logo>
+                <a href='/'><Logo></Logo></a>
             </Top>
             <Links>
                 <Link href='/#/players'>Players</Link>
