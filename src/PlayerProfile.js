@@ -277,7 +277,7 @@ function PlayerProfile(props){                                                  
                     <Container>
                         <Title>Statistics</Title>
                         <StatContainer>
-                            {(stats.length > 0)&&<Stats>
+                            {(SeasonStats.length > 0)&&<Stats>
                                 <tbody>
                                     {seasonStatComp}
                                 </tbody>
