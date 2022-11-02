@@ -62,13 +62,13 @@ function Nav() {
     return (
         <Container>
             <Top>
-                <a href='/'><Logo></Logo></a>
+                <a href='/Basketball/'><Logo></Logo></a>
             </Top>
             <Links>
-                <Link href='/#/players'>Players</Link>
-                <Link href='/#/teams'>Teams</Link>
-                <Link href='/#/seasons'>Season</Link>
-                <Link href='/#/weekscores'>Scores</Link>
+                <Link href='/Basketball/#/players'>Players</Link>
+                <Link href='/Basketball/#/teams'>Teams</Link>
+                <Link href='/Basketball/#/seasons'>Season</Link>
+                <Link href='/Basketball/#/weekscores'>Scores</Link>
             </Links>
             
         </Container>

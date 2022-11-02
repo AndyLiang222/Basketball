@@ -74,7 +74,7 @@ function PlayersPage(props){
     })
     const players  = playerData.map((value)=>{
         return (
-            <Player href = {("/#/player/" + value._id)}>
+            <Player href = {("/Basketball/#/player/" + value._id)}>
                 {value.name}
             </Player>
         )
